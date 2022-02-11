@@ -5,7 +5,7 @@ diff -up ../dwm-vanilla/config.def.h ./config.def.h
  	/*               fg         bg         border   */
  	[SchemeNorm] = { col_gray3, col_gray1, col_gray2 },
  	[SchemeSel]  = { col_gray4, col_cyan,  col_cyan  },
-+	[SchemeStatus]    = { col_gray4, col_cyan, NULL }, /* border is unused */
++	[SchemeStatus]    = { col_gray4, col_gray1, NULL }, /* border is unused */
 +	[SchemeTitleNorm] = { col_gray3, col_gray1, NULL }, /* border is unused */
 +	[SchemeTitleSel]  = { col_gray4, col_cyan, NULL }, /* border is unused */
  };
